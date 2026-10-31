@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: rgb(146, 130, 115);
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 40px;
+}
+
+nav > img {
+    height: 75px;
+    margin: 5px;
+}
+
+nav a {
+    color: black;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: rgb(48, 48, 48);
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+section {
+    margin-left: 10px;
+}
+
+section img {
+    height: 300px;
+    margin-left: 5px;
+    box-shadow: 3px 1px 20px rgb(182, 182, 182);
+    border-radius: 2%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+section br {
+    margin-bottom: 2px;
+}
+
+#titulo {
+    margin-left: -5px;
+}
+
+footer {
+    padding: 7px;
+    background-color: rgb(146, 130, 115);
+}
